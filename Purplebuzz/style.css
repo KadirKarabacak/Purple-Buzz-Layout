@@ -1,0 +1,2274 @@
+/*  INDEX HTML STARTS */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.links {
+    list-style-type: none;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navLeft {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13%;
+}
+
+.navMid {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.navRight {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-right: 14%
+}
+
+.icons {
+    color: #4232c2;
+}
+
+.icons:hover {
+    opacity: 0.8;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 50rem;
+}
+
+.links a:hover {
+    color: white;
+    background-color: #4232c2;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.2% 0 1.2% 0;
+    box-shadow: #2a2a2a 0 0 10px 5px;
+}
+
+.fa-building {
+    position: relative;
+    right: 8px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.buzz {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+span {
+    color: #4232c2;
+}
+
+span .copyLink {
+    text-decoration: none;
+}
+
+.info {
+    width: 100%;
+    opacity: 0.9;
+    justify-content: center;
+    background-image: url(img/banner-bg-01.jpg);
+    padding: 15.1%;
+    z-index: -1;
+}
+
+.info1 {
+    position: relative;
+    bottom: 120px;
+    z-index: 10;
+
+}
+
+.topInfo {
+    margin: 0 0 3% 0;
+    color: #6266ea;
+    font-size: 55px;
+    line-height: 1.2;
+    letter-spacing: 4px;
+}
+
+.bottomInfo {
+    padding: 0 0 2% 0;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.infoButton {
+    color: #4f54d6;
+    border: solid 1px #4f54d6;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 0.7% 1.6%;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+.infoButton:visited {
+    outline-style: solid 3px;
+}
+
+.infoButton:hover {
+    background-color: #4f54d6;
+    color: white;
+    cursor: pointer;
+}
+
+.services {
+    text-align: center;
+    height: auto;
+    margin: 2.8% 0 2.8% 0;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.underh1 {
+    margin: 0 0 0 24%;
+    display: flex;
+    flex-direction: column;
+}
+
+.success {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 1.8% 0;
+    align-items: center;
+    font-size: 20px;
+}
+
+.gift {
+    font-size: 25px;
+}
+
+.h2 {
+    padding-left: 1.3%;
+}
+
+.text {
+    max-width: 46%;
+    margin-left: 2.8%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.listTwo {
+    background-color: #6266ea;
+}
+
+.list2ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 2.2% 0;
+    justify-content: center;
+}
+
+.secondList {
+    padding: 12px 35px;
+    margin-left: 2%;
+}
+
+.secondList a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.secondList a:active {
+    outline: #6266ea;
+}
+
+.secondList:hover {
+    background-color: #4232c2;
+    border-radius: 50rem;
+    color: white;
+    cursor: pointer;
+}
+
+.allCards {
+    padding: 2% 15%;
+    margin: 0 0 -10% 0;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardsTop {
+    margin: 2%;
+}
+
+.cardImages {
+    height: 300;
+    width: 100%;
+    border-radius: 13px;
+    background: linear-gradient(135deg, #e3e3e3 0%, #5d6874 100%);
+    cursor: pointer;
+}
+
+.cardInfos {
+    width: 250px;
+    position: relative;
+    bottom: 110px;
+    left: 15px;
+}
+
+.cardText {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2%;
+    line-height: normal;
+}
+
+.cardButton {
+    margin-bottom: 4%;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 50rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.cardButton:hover {
+    background-color: white;
+    border-color: black;
+}
+
+.botContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 104px;
+}
+
+.cardsBottom {
+    margin: 2%;
+}
+
+.afterCards {
+    background-color: #6266ea;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+}
+
+.afterCardsIcon {
+    font-size: 60px;
+    color: white;
+}
+
+.greatText1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.greatText2 {
+    color: white;
+}
+
+.greatButton {
+    background-color: #383cc0;
+    padding: 0.4% 1.3%;
+    border: none;
+    border-radius: 50rem;
+    color: white;
+    font-size: 16px;
+    box-shadow: #6266ea 0 0 50px 0;
+    cursor: pointer;
+}
+
+.greatButton:hover {
+    background-color: #2818a1;
+}
+
+.recentInfo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 4% 0 3% 0;
+}
+
+.allRecentCards {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recentTopCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 460px;
+}
+
+.recentBotCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 27%;
+}
+
+.topCard {
+    position: relative;
+    width: 21%;
+    margin: 1%;
+    opacity: 0.8;
+}
+
+
+
+.botCard {
+    position: relative;
+    width: 21%;
+    margin: 1%;
+    opacity: 0.8;
+}
+
+.recentImages {
+    position: absolute;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s;
+}
+
+.recentImages:hover {
+    opacity: 0.5;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.cardHeader {
+    position: absolute;
+    top: 300px;
+    left: 18px;
+    font-weight: bold;
+}
+
+.cardParagraph {
+    position: absolute;
+    top: 340px;
+    left: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    background-color: #6266ea;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    height: 350px;
+    padding: 0% 21% 3% 10%;
+}
+
+
+.footerSocialInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 0 3% 7%;
+}
+
+.footerHead {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 4;
+}
+
+.footerInfo {
+    max-width: 300px;
+    margin-bottom: 5%;
+}
+
+.footerIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20% 0 0;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.footerIcons a .footLeftIco {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footerIcons a .footLeftIco:hover {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footerLeftBuzz {
+    color: white;
+    position: inherit;
+    padding: 0% 4% 0 6px;
+}
+
+.ourCompany {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-right: 10%;
+}
+
+.companyHead {
+    font-size: 25px;
+    padding-bottom: 10%;
+    font-weight: bold;
+}
+
+.companyUl {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 27px;
+}
+
+.companyUl a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.companyUl a:hover {
+    opacity: 0.7;
+    transition: .4s;
+}
+
+.ourWorkHead {
+    font-size: 25px;
+    padding-bottom: 10%;
+    font-weight: bold;
+    position: relative;
+    right: 35px;
+}
+
+.companyList {
+    padding-bottom: 0.5rem;
+}
+
+.forClient {
+    padding-top: 1.4%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 9%;
+}
+
+
+.clientHead {
+    font-size: 25px;
+    padding-bottom: 10%;
+    font-weight: bold;
+    color: white;
+}
+
+.infoClient {
+    color: white;
+    line-height: 25px;
+    font-weight: bold;
+    margin: 0 0% 0 0;
+}
+
+.phoneMail {
+    text-decoration: none;
+}
+
+.phoneMail:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.copyright {
+    background-color: #4232c2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-size: 1rem;
+    min-height: 75px;
+    align-items: center;
+}
+
+.copyrightRight {
+    text-decoration: none;
+    color: white;
+}
+
+.copyInfo {
+    text-decoration: none;
+}
+
+.copyLink {
+    color: white;
+    font-weight: bold;
+}
+
+.copyLink:hover {
+    opacity: 0.7;
+    transition: .4s;
+}
+
+.footKad {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------- INDEX HTML ENDS ----------------------------*/
+/* ------------------------------------------------------- ABOUT US STARTS ----------------------------*/
+
+.aboutUsUnderNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 650px;
+    background-color: #f6f9fe;
+    align-items: center;
+    padding: 4% 15% 4% 15%;
+}
+
+.aboutUsLeft {
+    width: 50%;
+}
+
+.aboutUsHead {
+    color: #4232c2;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.aboutUsPar {
+    color: grey;
+    max-width: 600px;
+    font-weight: bold;
+}
+
+.freePik {
+    color: #383cc0;
+}
+
+.freePik:hover {
+    color: rgb(17, 7, 75);
+    transition: .4s;
+}
+
+.aboutUsRight {
+    width: 50%;
+    padding-left: 4%;
+}
+
+.aboutUsBanner {
+    width: 100%;
+    height: auto;
+}
+
+.ourTeam {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0%;
+}
+
+.allOurTeam {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4% 0 4%;
+}
+
+.ourTeamInfo {
+    color: black;
+    width: auto;
+    max-width: 300px;
+}
+
+.ourTeamLeft {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+
+.ourTeamLeftPar {
+    font-weight: bold;
+    color: grey;
+}
+
+.teamMembers {
+    max-width: auto;
+    text-align: center;
+}
+
+.memberImages {
+    border-radius: 50%;
+    width: 70%;
+    margin: 4%;
+    transition: .3s;
+}
+
+.memberImages:hover {
+    padding: 3%;
+    transition: .4s;
+}
+
+.memberInfo {
+    color: grey;
+    margin-top: 7%;
+}
+
+.ourPartnerSection {
+    display: flex;
+    width: 100%;
+    background-color: #6266ea;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 3rem;
+    align-items: center;
+}
+
+.partnerHead {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 3%;
+}
+
+.ourPartner {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 3% 4% 0 4%;
+}
+
+.ourPartnerIcons {
+    font-size: 60px;
+    background-color: #7276ec;
+    padding: 3% 9%;
+    transition: 0.7s;
+}
+
+.ourPartnerIcons:hover {
+    cursor: pointer;
+    background-color: #b1b3f5;
+}
+
+.ourPartnerIconsIn {
+    color: white;
+    opacity: 1;
+}
+
+.creativeSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 370px;
+}
+
+.creativeInfo {
+    width: 90%;
+    display: flex;
+    align-items: baseline;
+}
+
+.creativeLeft {
+    width: 50%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.creativeHead {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.creativePar {
+    max-width: 340px;
+}
+
+.creativeRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+}
+
+.progressBorder1 {
+    background-color: #e9ecef;
+    width: 100%;
+    height: 10px;
+    border-radius: 0.50rem;
+    display: flex;
+    align-items: center;
+}
+
+.progressBorder2 {
+    background-color: #e9ecef;
+    width: 100%;
+    height: 10px;
+    border-radius: 0.50rem;
+    display: flex;
+    align-items: center;
+}
+
+.progressBorder3 {
+    background-color: #e9ecef;
+    width: 100%;
+    height: 10px;
+    border-radius: 0.50rem;
+    display: flex;
+    align-items: center;
+}
+
+.progressText {
+    color: grey;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 1%;
+}
+
+.progressCol1 {
+    width: 66%;
+    height: 10px;
+    background-color: #4232c2;
+    font-size: 15px;
+    border-radius: 0.50rem;
+}
+
+.progressCol2 {
+    width: 90%;
+    height: 10px;
+    background-color: #4232c2;
+    font-size: 15px;
+    border-radius: 0.50rem;
+}
+
+.progressCol3 {
+    width: 74%;
+    height: 10px;
+    background-color: #4232c2;
+    font-size: 15px;
+    border-radius: 0.50rem;
+}
+
+.chooseUs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20% 0 20%;
+    background: linear-gradient(0deg, rgba(239, 239, 253, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.chooseUsLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.chooseUsImg {
+    width: 100%;
+    height: 530px;
+}
+
+.chooseUsRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 3%;
+}
+
+.chooseUsHead {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.chooseUsPar {
+    color: gray;
+    font-weight: bold;
+    width: 710px;
+}
+
+.freeCss {
+    color: blue;
+}
+
+.freeCss:hover {
+    color: rgb(16, 9, 71);
+    transition: .3s;
+    text-decoration: none;
+}
+
+.containerVMG {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.vmgIcons {
+    font-size: 45px;
+    color: white;
+    background-color: #6266ea;
+    padding: 7% 10%;
+    border-radius: 13px;
+    transition: .3s;
+}
+
+.vmgIcons:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.visMisGoHeads {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    padding: 4% 0 3% 0;
+}
+
+.visMisGoTexts {
+    color: grey;
+    width: 400px;
+}
+
+.mailSection {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #f6f9fe;
+    padding: 3% 3%;
+}
+
+.inputSlogan {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.mailInput {
+    display: flex;
+    flex-direction: row;
+}
+
+.inInput {
+    width: 500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #7275ec;
+    padding-left: 3%;
+}
+
+.inInput:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.inInput::placeholder {
+    font-size: 20px;
+    padding-left: 2%;
+    font-weight: bold;
+}
+
+.mailButton {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 1% 4% 0 4%;
+    background-color: #6266ea;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    border-color: #7275ec;
+}
+
+.mailButton:hover {
+    background-color: #7a7ded;
+    border-color: #7275ec;
+}
+
+.mailButton:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.buttonText {
+    font-weight: bold;
+}
+
+.underInput {
+    width: 600px;
+}
+
+/* ------------------------------------------------------- ABOUT US ENDS ---------------------------- */
+/* -------------------------------------------------------- WORK STARTS ----------------------------- */
+/* OUR WORK TOP SECTION STARTS */
+.workTopImage {
+    background-image: url(img/banner-bg-020.jpg);
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.workInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 4% 0;
+}
+
+.ourWorkHeader {
+    font-size: 25px;
+}
+
+.ourWorkH3 {
+    font-size: 20px;
+}
+
+.ourWorkPar {
+    width: 850px;
+    text-align: center;
+}
+
+.ourWorkParLink {
+    color: white;
+    font-weight: bold;
+}
+
+.ourWorkButCon {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0 33%;
+}
+
+.ourWorkLeft {
+    width: 40%;
+}
+
+.ourWorkLeftBut {
+    background-color: transparent;
+    border-radius: 50rem;
+    color: white;
+    border: 1px solid white;
+    padding: 4% 16%;
+    font-size: 15px;
+}
+
+.ourWorkRight {
+    width: 40%;
+}
+
+.ourWorkRightBut {
+    padding: 4% 16%;
+    font-size: 15px;
+    border: 1px solid #6266ea;
+    border-radius: 50rem;
+    color: white;
+    background-color: #6266ea;
+}
+
+.ourWorkLeftBut:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    cursor: pointer;
+}
+
+.ourWorkRightBut:hover {
+    cursor: pointer;
+    border-color: #7275ec;
+    background-color: #7275ec;
+}
+
+.ourWorkRightBut:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.ourWorkLeftBut:focus {
+    box-shadow: 0 0 0 0.25rem rgba(188, 188, 192, 0.25);
+    outline: 0
+}
+
+/* [ OUR WORK CARD SECTION ] */
+
+.workCardContainer {
+    width: 100%;
+    height: 1600px;
+}
+
+.workCardSelector {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 6% 20% 2% 20%;
+}
+
+.workCardList {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0 20%;
+}
+
+.workCardLinks {
+    text-decoration: none;
+    display: flex;
+    padding: 1% 3%;
+    border-radius: 3rem;
+    color: rgb(52, 52, 240);
+}
+
+.workCardLinks:hover {
+    color: white;
+    background-color: #4232c2;
+}
+
+.workCardLinks:focus {
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 50%);
+    background-color: #4232c2;
+    color: white;
+}
+
+/* CARDS */
+
+.allWorkCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.topWorkCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 14%;
+}
+
+.botWorkCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 14%;
+}
+
+.workCards {
+    transition: .3s;
+}
+
+.workCards:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: blue;
+}
+
+.WorkImages {
+    width: 400px;
+    border-top-left-radius: 0.50rem;
+    border-top-right-radius: 0.50rem;
+    border: 1px solid rgb(223, 220, 220);
+    border-bottom: none;
+}
+
+.allWorkCardInfos {
+    width: 400px;
+    border-bottom-left-radius: 0.50rem;
+    border-bottom-right-radius: 0.50rem;
+    padding: 3% 4% 5% 3%;
+    position: relative;
+    bottom: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: none;
+    border-color: rgb(223, 220, 220);
+}
+
+.workCardTexts {
+    font-size: 20px;
+    font-weight: light;
+    padding-bottom: 2%;
+
+}
+
+.workCardPars {
+    padding-bottom: 6%;
+    padding-right: 7%;
+    opacity: 0.9;
+}
+
+.readMoreLinks {
+    text-decoration: none;
+    color: #3e45f5;
+    font-weight: bold;
+}
+
+.previousNext {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2% 43%;
+}
+
+.previousNextButtons {
+    color: white;
+    background-color: #6266ea;
+    border: none;
+    border-radius: 5px;
+    padding: 3% 5%;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.previousNextButtons:hover {
+    background-color: #8d90ee;
+    cursor: pointer;
+}
+
+.previousNextButtons:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+/* WORK TOP FOOTER STARTS */
+
+.workFooterTopContainer {
+    width: 100%;
+    height: 770px;
+    background-color: #f6f9fe;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+
+.workFooterTopLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 0px 4% 0 9%;
+}
+
+.workFooterTopRight {
+    width: 50%;
+    padding: 3%;
+
+}
+
+.flowerImages {
+    width: 47%;
+    margin: 1%;
+    transition: .3s;
+}
+
+.flowerImages:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    width: 45%;
+}
+
+.workHead1 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: grey;
+    padding-bottom: 2%;
+}
+
+.workHead2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.topLeftText {
+    color: grey;
+    opacity: 0.9;
+}
+
+/* DIGITAL MARKETING SITE */
+
+.digitServiceInfos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digitServiceHeader {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3% 27.8% 1% 0;
+}
+
+.digitServiceText {
+    text-align: left;
+    width: 44.7%;
+    padding-bottom: 2%
+}
+
+.topSlideImageDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.topSlideImage {
+    width: 850px;
+    height: 570px;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 180px;
+    padding: 0 30%;
+}
+
+.digitServiceImages {
+    width: 100%;
+    height: 150px;
+    transition: .3s;
+}
+
+.digitServiceImages:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.oneImageOnBar {
+    width: 90%;
+    height: max-content;
+}
+
+.leftArrowSlider {
+    color: rgb(59, 59, 59);
+    position: relative;
+    top: 52px;
+    right: 45px;
+    cursor: pointer;
+}
+
+.rightArrowSlider {
+    color: rgb(59, 59, 59);
+    position: relative;
+    top: 52px;
+    left: 38px;
+    cursor: pointer;
+}
+
+/* SLIDER SECTION END */
+
+.allUnderSlider {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.underSliderText {
+    width: 43%;
+}
+
+.emphesaziedParDiv {
+    width: 42%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.emphesaziedParText{
+    width: 100%;
+}
+
+.videoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videoFrame {
+    border: none;
+    transition: .3s;
+    border-radius: 4px;
+}
+
+.videoFrame:hover {
+    opacity: 0.9;
+}
+
+.videoText {
+    width: 45%;
+    color: grey;
+    font-weight: bold;
+    opacity: 0.9;
+    padding-top: 2%;
+}
+
+.commentsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    height: 1100px;
+}
+
+.commentHeader {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1%;
+    position: relative;
+    right: 380px;
+}
+
+.commentUsers {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+}
+
+.commentUserImg {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.commentImageInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5%;
+}
+
+.commentUserNames {
+    font-weight: bold;
+}
+
+.commentUserName-Time {
+    width: 100%;
+    display: flex;
+    padding-left: 28%;
+}
+
+.commentTime {
+    padding-top: 1%;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.usersComments {
+    width: 780px;
+    height: 75px;
+    font-size: 15px;
+    padding: 1.5%;
+}
+
+.replyButton {
+    position: relative;
+    right: 55px;
+    top: 10px;
+    color: #4f54d6;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.replyButton:hover {
+    position: relative;
+    top: 10px;
+    right: 75px;
+    color: red;
+}
+
+.replyLinks {
+    text-decoration: none;
+}
+
+.yourCommentFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.commentHeaders {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 22%;
+}
+
+.signCommentHeader {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0.5%;
+}
+
+.signCommentUnder {
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+    padding-bottom: 0.5%;
+}
+
+.commentAreaContain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.commentAreaAttribute {
+    width: 850px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 0.5% 0.5%;
+    font-size: 20px;
+    border: solid 1px rgb(230, 225, 225);
+    transition: .2s;
+}
+
+.commentAreaAttribute:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.name-EmailContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 23%;
+    margin-top: 0.5%;
+}
+
+.textAreaInfos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 21.4%;
+}
+
+.commentInputs {
+    width: 50%;
+    height: 40px;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid rgb(226, 226, 226);
+    transition: .2s;
+    border-radius: 5px;
+}
+
+.commentInputs:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.inputTextsName {
+    color: grey;
+    position: relative;
+    right: 27px;
+}
+
+.inputTextsEmail {
+    color: grey;
+}
+
+.commentSubmitButton {
+    width: 77.4%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%
+}
+
+.sendCommentForm {
+    background-color: #6266ea;
+    border-color: #6266ea;
+    color: white;
+    padding: 1.2% 2%;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.sendCommentForm:hover {
+    background-color: #7a7ded;
+    border-color: #7275ec;
+}
+
+.sendCommentForm:focus {
+    background-color: #7a7ded;
+    border-color: #7275ec;
+    box-shadow: 0 0 0 0.25rem rgb(83 87 199 / 50%);
+}
+
+.relatedContainer {
+    width: 100%;
+    height: 730px;
+    background-color: #f6f9fe;
+}
+
+.relatedPostHead {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2% 0 2% 17.5%;
+}
+
+.relatedCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15.5%;
+}
+
+.relatedCardsAttributes {
+    display: flex;
+    flex-direction: column;
+    transition: .3s;
+}
+
+.relatedCardsAttributes:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.relatedCardImages {
+    width: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid rgb(214, 213, 213);
+    border-bottom: none;
+}
+
+.relatedCardAllText {
+    background-color: white;
+    padding: 4% 6%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(214, 213, 213);
+    border-top: none;
+}
+
+.relatedCardHeads {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.readMore-Like-Comments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.relatedCardTexts {
+    color: grey;
+}
+
+.readMore-Icons {
+    text-decoration: none;
+    color: #4232c2;
+    font-weight: bold;
+    width: 26%;
+    transition: .3s;
+}
+
+.heartIconSpaces {
+    margin: 9%;
+}
+
+.commentIconSpaces {
+    margin: 9%;
+}
+
+/* ---------------------------------- DIGITAL MARKETING END ----------------------------------------------- */
+/* ---------------------------------- PRICING CSS STARTS -------------------------------------------------*/
+
+.firstPricingContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstPricingInfos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0 0% 0;
+}
+
+.pricingCardsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4%;
+}
+
+.pricingHead {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.pricingText {
+    font-weight: bold;
+}
+
+.pricingCardsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pricingCards {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 6%;
+    box-shadow: rgb(230, 228, 228) 1px 1px 5px;
+    height: 452px;
+}
+
+.pricingCardsMid {
+    background-color: #6266ea;
+    padding: 5% 6%;
+    border-radius: 15px;
+    margin: 0 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    box-shadow: rgb(230, 228, 228) 1px 1px 5px;
+    height: 490px;
+}
+
+.icon_offerName_price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offerIcons {
+    font-size: 50px;
+    color: #6266ea;
+    padding-bottom: 8%;
+}
+
+.offerIconsMid {
+    font-size: 50px;
+    padding-bottom: 8%;
+}
+
+.pricingOfferName {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+
+.offerPrice {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.offerContent {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.contentButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.offerSubmit {
+    padding: 3% 5%;
+    border-radius: 25px;
+    border: 1px solid #7275ec;
+    color: #7275ec;
+    background-color: white;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.offerSubmit:hover {
+    color: #f6f9fe;
+    background-color: #4232c2;
+    border-color: #4232c2;
+    cursor: pointer;
+}
+
+.offerSubmit:focus {
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+    outline: 0;
+}
+
+.offerSubmitMid {
+    padding: 3% 5%;
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.offerSubmitMid:hover {
+    background-color: white;
+    color: #4232c2;
+    cursor: pointer;
+}
+
+.offerSubmitMid:focus {
+    box-shadow: 0 0 0 0.25rem rgba(214, 213, 219, 0.25);
+}
+
+/* !-- SECTION 1 ENDS -- */
+/* !-- SECTION 2 STARTS [ OUR PRICING SECTION ] -- */
+
+.ourPricingContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f9fe;
+}
+
+.ourPricingTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.bottomCardsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 20%;
+}
+
+.packages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: #bfbdbd 0 0 2px 0;
+}
+
+.iconWithText {
+    background-color: #6266ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 3% 7%;
+}
+
+.pricingIcons {
+    font-size: 60px;
+    background-color: #6266ea;
+    color: white;
+    padding: 30% 30% 17% 30%;
+}
+
+.pricingPar {
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.packageListCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 15%;
+}
+
+.buttonPContain {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 18%;
+}
+
+.packagePrices {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.pricingButtons {
+    padding: 5% 21%;
+    margin-top: 10%;
+    border-radius: 25px;
+    border: 1px solid #383bd8;
+    color: #383bd8;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.pricingButtons:hover {
+    background-color: #383bd8;
+    cursor: pointer;
+    color: white;
+}
+
+.pricingButtons:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+/* SECTION 2 ENDS ---------------------------------- */
+/* SECTION 3 STARTS [ END OF PRICING ] */
+.lPriceContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.lPriceHead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.lPricePar {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+}
+
+.lPriceParLink{
+    color: blue;
+}
+.img-offers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 1% 15%;
+}
+
+.lPriceImDiv {
+    width: 50%;
+}
+
+.lPriceOffers {
+    width: 50%;
+    margin-bottom: 8%;
+}
+
+.lPriceOffContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    margin-bottom: 1%;
+    padding: 3% 3%;
+    border-radius: 5px;
+}
+
+.lPriceIcons {
+    font-size: 45px;
+    color: #696be9;
+}
+
+.lPriceName {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.lPriceUnder {
+    color: grey;
+}
+
+.lPriceButtons {
+    color: #f6f9fe;
+    background-color: #4232c2;
+    border-color: #4232c2;
+    padding: 11% 13%;
+    width: 152%;
+    border-radius: 30px;
+    transition: .3s;
+    font-size: 14px;
+}
+
+.lPriceButtons:hover {
+    cursor: pointer;
+    background-color: #1b0b97;
+}
+
+.lPriceButtons:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(36, 26, 116, 0.25);
+}
+
+.lPriceGetNow {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 240px;
+    right: 540px;
+}
+
+.getNowPackage {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.3% 1.1%;
+    color: #5c4ec5;
+    border-color: #5c4ec5;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    transition: .2s;
+}
+
+.getNowPackage:hover {
+    color: white;
+    background-color: #5c4ec5;
+    cursor: pointer;
+}
+
+/* -------------------------------------- PRICING ENDS --------------------------------------------------- */
+/* ------------------------------------- CONTACT STARTS --------------------------------------------------- */
+.contactTopContainer {
+    display: flex;
+    width: 100%;
+    background-color: #f6f9fe;
+}
+
+.contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.contactImg {
+    width: 30%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+
+.contactBannerImg {
+    padding-bottom: 3%;
+}
+
+.contactHead {
+    color: #4232c2;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 3%;
+}
+
+.contactUnderHead {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+
+.contactPar {
+    color: rgb(94, 94, 94);
+}
+
+/* CONTACT FORM SECTION */
+
+.contBotUnderContainer {
+    width: 100%;
+    display: flex;
+}
+
+.contactBotHead {
+    color: #4232c2;
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+.contactBotUnderHead {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 15%;
+}
+
+.contactBotPar {
+    padding-left: 15%;
+    width: 58%;
+    color: grey;
+    padding-top: 0.3%;
+}
+
+.contBotLeft {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContents {
+    display: flex;
+    align-items: center;
+    padding: 0% 0% 0 50%;
+}
+
+.contactIco {
+    color: #484ace;
+    margin: 15% 5% 0% 0;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 6% 9%;
+}
+
+.contactTopIcon {
+    font-size: 32px;
+}
+
+.contactMidIcon {
+    font-size: 26px;
+}
+
+.contactBotIcon {
+    font-size: 29px;
+}
+
+.numberWithNames {
+    padding: 14% 0 0 4%;
+}
+
+.row1 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.row2 {
+    color: grey;
+}
+
+.contBotRight {
+    width: 70%;
+    margin-top: 2.6%;
+    padding-left: 8%;
+}
+
+.contName-Email {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 49.5% 1.5% 0;
+}
+
+.contPhone-Company {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 49.5% 1.5% 0;
+}
+
+.contSubject-Area {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.contInputs {
+    padding: 8%;
+    font-size: 15px;
+    width: 245%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.contInputs:focus{
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.contSubjectInput {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 2.3%;
+    width: 101.3%;
+}
+
+.contSubInput {
+    font-size: 15px;
+    padding: 1.5%;
+    width: 240%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.contSubInput:focus{
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.contAreaInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 101%;
+}
+
+.contTextArea {
+    padding: 1.5%;
+    font-size: 15px;
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.contTextArea:focus{
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.formSubmitButton{
+    width: 20%;
+    padding: 1% 0%;
+    font-size: 15px;
+    background-color: #6266ea;
+    border: 1px solid #6266ea;
+    color: white;
+    border-radius: 40px;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    transition: .3s;
+}
+
+.formSubmitButton:hover{
+    background-color: #7a7ded;
+    border-color: #7a7ded;
+    cursor: pointer;
+}
